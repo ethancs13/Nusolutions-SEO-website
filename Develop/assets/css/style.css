@@ -145,6 +145,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     margin-left: 200px;
+    cursor: pointer;
 }
 
 .mainNav ul {
@@ -194,11 +195,14 @@ p {
         flex-direction: column;
         width: 50px;
         height: 50px;
-        background-color:#2589bd;
         border: 2px solid white;
         border-radius: 20px;
     }
     .hamburger-Menu:hover {
-        background-color: black;
+        
+    }
+    .hamburger-Menu img {
+        background-size: cover;
+        
     }
 }

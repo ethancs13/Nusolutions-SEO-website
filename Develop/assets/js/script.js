@@ -1,4 +1,4 @@
-const hamMenu = document.querySelector('button');
+const hamMenu = document.querySelector('#hamburger-Menu');
 const dropDown = document.querySelector('#drop-Down');
 
 var check = 0;
@@ -20,6 +20,9 @@ function drop(){
                 height: 40px;
                 color: white;
                 font-weight: bolder;
+            }
+            .hamburger-Menu img {
+                position: cover;
             }
             .drop-Down {
                 visibility: visible;
