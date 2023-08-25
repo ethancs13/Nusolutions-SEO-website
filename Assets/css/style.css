@@ -201,8 +201,9 @@ p {
     .hamburger-Menu:hover {
         
     }
-    .hamburger-Menu img {
-        background-size: cover;
-        
+    #hamburger-Menu img {
+        position: relative;
+        z-index: 2;
+        height: 50px;
     }
 }

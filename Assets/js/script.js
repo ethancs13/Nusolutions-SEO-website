@@ -21,9 +21,6 @@ function drop(){
                 color: white;
                 font-weight: bolder;
             }
-            .hamburger-Menu img {
-                position: cover;
-            }
             .drop-Down {
                 visibility: visible;
                 display: flex;
@@ -52,12 +49,22 @@ function drop(){
         var style = document.createElement('style');
 
         hamMenu.innerHTML = "";
+
+        var img = document.createElement('img');
+        img.src = "https://img.icons8.com/?size=512&id=99431&format=png";
+        hamMenu.appendChild(img);
+
         style.innerHTML = `
             .hamburger-Menu {
                 width: 50px;
                 height: 50px;
                 border: 2px solid white;
                 border-radius: 20px;
+            }
+            #hamburger-Menu img {
+                position: relative;
+                z-index: 2;
+                height: 50px;
             }
             .drop-Down {
                 display: none;
