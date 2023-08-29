@@ -10,3 +10,6 @@ added id and class names to some important elements
 
 * **Commented**
 commented in both files for clarity
+
+* **Added hamburger menu**
+hamburger menu for mobile
