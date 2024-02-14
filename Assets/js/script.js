@@ -4,9 +4,6 @@ const dropDown = document.querySelector('#drop-Down');
 var check = 0;
 
 function drop(){
-    // dropDown.style.visibility = "visible";
-    // dropDown.style.display = "flex";
-    // dropDown.style.flexDirection = "column";
     if (check === 0) {
         var style = document.createElement('style');
 
